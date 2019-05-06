@@ -5,7 +5,7 @@ def repository_url
   STDOUT.print "Enter password for user [#{_user_name}] :"
   _password = STDIN.noecho(&:gets).strip
   STDOUT.puts "\n\nThanks!"
-  "https://#{_user_name}:#{_password}@github.com/aashishgarg/Labs.git"
+  "https://#{_user_name}:#{_password}@github.com/aashishgarg/dev_shop_backend.git"
 end
 
 def set_branch

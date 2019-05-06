@@ -156,3 +156,5 @@ end
 #   3. sudo service mysql stop
 #   4. sudo service mysql start
 #   5. Now login mysql without sudo
+
+# https://vitux.com/how-to-install-and-configure-mysql-in-ubuntu-18-04-lts/
