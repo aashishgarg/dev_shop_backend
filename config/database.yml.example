@@ -1,10 +1,10 @@
 default: &default
   adapter: mysql2
-  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  pool: 5
   timeout: 5000
-  username: root
-  password:
 
 production:
   <<: *default
-  database: dev_shop_production
+  database: <%= Rails.application.credentials.production[:database_name] %>
+  username: <%= Rails.application.credentials.production[:username_name] %>
+  password: <%= Rails.application.credentials.production[:password] %>

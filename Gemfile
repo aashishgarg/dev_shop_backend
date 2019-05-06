@@ -23,6 +23,7 @@ group :development do
   # eager loading (N+1 queries), when you're using eager loading that isn't necessary and when you
   # should use counter cache.
   gem 'listen', '>= 3.0.5', '< 3.2'
+  gem 'mina'
   gem 'rack-mini-profiler' #-> Middleware that displays speed badge for every html page. Designed to work both in
   # production and in development.
   gem 'rails_best_practices' #-> rails_best_practices is a code metric tool to check the quality of Rails code.
